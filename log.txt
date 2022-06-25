@@ -1,0 +1,18 @@
+T: Sat Jun 25 22:53:12 2022 M: Pliki z logami zostaly otwarte pomyslnie.
+T: Sat Jun 25 22:53:14 2022 M: GOTOWE: case1_plik1.bin
+
+T: Sat Jun 25 22:53:14 2022 M: GOTOWE: case1_plik2.bin
+
+T: Sat Jun 25 22:53:14 2022 M: Obliczanie danych dla plikow.
+T: Sat Jun 25 23:00:07 2022 M: Pliki z logami zostaly otwarte pomyslnie.
+T: Sat Jun 25 23:00:14 2022 M: GOTOWE: case2_plik3.bin
+
+T: Sat Jun 25 23:00:14 2022 M: GOTOWE: case2_plik4.bin
+
+T: Sat Jun 25 23:00:14 2022 M: Obliczanie danych dla plikow.
+T: Sat Jun 25 23:00:14 2022 M: Program uzyskal nastepujace wyniki obliczen: 
+Bit Error Rate: 0
+Ilosc bitow: 800
+Ilosc bledow: 0
+Czas obliczen: 0 sec 
+
