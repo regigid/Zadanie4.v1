@@ -13,6 +13,20 @@ using namespace std;
 
 fstream logPlik;
 
+void zapiszL(string msg)
+{
+    string t;
+    time_t currentTime = time(NULL);
+    string txttime = (string)asctime(localtime(&currentTime));
+    txttime = txttime.substr(0, txttime.length() - 1);
+    t = (string)"T: " + txttime + " M: " + msg + "\n";
+    logPlik << t.c_str();
+    logPlik.flush();
+    cout << t.c_str();
+    cout.flush();
+}
+
+
 void otworzL(string plikNazwa)
 {
     logPlik.open(plikNazwa.c_str(), ios_base::app);
@@ -281,15 +295,3 @@ int main(int argc, char* argv[])
 
 }
 
-void zapiszL(string msg)
-{
-    string t;
-    time_t currentTime = time(NULL);
-    string txttime = (string)asctime(localtime(&currentTime));
-    txttime = txttime.substr(0, txttime.length() - 1);
-    t = (string)"T: " + txttime + " M: " + msg + "\n";
-    logPlik << t.c_str();
-    logPlik.flush();
-    cout << t.c_str();
-    cout.flush();
-}

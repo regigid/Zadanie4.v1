@@ -128,3 +128,5 @@ Ilosc bitow: 800
 Ilosc bledow: 20
 Czas obliczen: 0 sec 
 
+T: Sat Jun 25 22:47:17 2022 M: Pliki z logami zostaly otwarte pomyslnie.
+T: Sat Jun 25 22:48:02 2022 M: Obliczanie danych dla plikow.
